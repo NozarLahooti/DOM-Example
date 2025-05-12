@@ -10,3 +10,9 @@ let h1El = document.createElement("h1")
 h1El.innerHTML = "DOM Manipulation"
 h1El = mainEl.appendChild(h1El)
 mainEl.classList.add("flex-ctr")
+
+// Part 2
+const topMenuEl = document.getElementById("top-menu")
+topMenuEl.style.height = "100%"
+topMenuEl.style.backgroundColor = "var(--top-menu-bg)"
+topMenuEl.classList.add("flex-around")
